@@ -3,7 +3,7 @@
 
 #include "uTensor/util/uTensor_util.hpp"
 #include <initializer_list>
-#include "utensor_string.hpp"
+#include "uTensor/util/utensor_string.hpp"
 #include <memory>
 #include <vector>
 #include <algorithm>

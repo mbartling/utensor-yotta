@@ -1,4 +1,4 @@
-#include "MathOps.hpp"
+#include "uTensor/ops/MathOps.hpp"
 
 // Place full specializations here
 // QuantizedAdd specialization

@@ -1,4 +1,4 @@
-#include "tensor.hpp"
+#include "uTensor/core/tensor.hpp"
 
 void uTensor::setName(utensor::string _name)
 {

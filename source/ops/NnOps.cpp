@@ -1,4 +1,4 @@
-#include "NnOps.hpp"
+#include "uTensor/ops/NnOps.hpp"
 
 void Softmax(S_TENSOR input, S_TENSOR output)
 {
