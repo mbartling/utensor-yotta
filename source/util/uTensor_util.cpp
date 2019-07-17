@@ -1,7 +1,7 @@
 #include "uTensor/util/uTensor_util.hpp"
 #ifndef TARGET_MBED
 #include <sys/stat.h>
-#include <dirent.h>
+//#include <dirent.h>
 #endif
 #include <cstdlib>
 
@@ -46,6 +46,7 @@ uint32_t ntoh32(uint32_t val) {
 }
 
 void init_env() {
+    /*
     int status;
     DIR* dir = opendir("/fs/tmp");
     if (dir) {
@@ -58,6 +59,7 @@ void init_env() {
         ERR_EXIT("env setting failed");
       }
     }
+    */
 }
 
 void utensor_exit(void) {
